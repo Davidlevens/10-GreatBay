@@ -1,0 +1,22 @@
+{
+  "name": "greatbay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.17.1",
+    "promise-mysql": "^4.1.1",
+    "inquirer": "7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0",
+    "jsdoc": "^3.6.3"
+  }
+}
