@@ -8,6 +8,6 @@ module.exports = {
   user: 'root',
 
   // Your password
-  password: 'Nova15star',
+  password: '',
   database: 'greatBay_db',
 };
