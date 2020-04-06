@@ -52,7 +52,7 @@ run();
 
 // function if they choose to bid. it will ask you what ID do you what to bid on and how much you want to bid. it will rerun if the ID is wrong or bid is to low. then it will update the database with the newest bid
 const biddingWar = function(connection) {
-  connection.query('SELECT * FROM auctions', function(err, res) {
+  connection.query(`SELECT * FROM auctions`, function(err, res) {
     if (err) throw err;
 
     for (let i = 0; i < res.length; i++) {
